@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Purple Gradient (Top Layer) -->
+    <linearGradient id="purpleGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+
+    <!-- Indigo Gradient (Middle Layer) -->
+    <linearGradient id="indigoGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+
+    <!-- Cyan Gradient (Bottom Layer) -->
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#0891b2" />
+    </linearGradient>
+
+    <!-- Drop Shadows for Depth -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+
+    <!-- Neon Ambient Glow -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="20" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Glowing Background Circle for Search Results / App Icons -->
+  <rect width="512" height="512" rx="128" fill="#0b0d19" />
+  <rect width="504" height="504" x="4" y="4" rx="124" fill="none" stroke="rgba(99, 102, 241, 0.15)" stroke-width="8" />
+
+  <!-- Ambient Glow Behind Stack -->
+  <g filter="url(#glow)" opacity="0.4">
+    <!-- Bottom Layer (Cyan) -->
+    <path d="M256 310 L410 233 L256 156 L102 233 Z" fill="url(#cyanGlow)" />
+    <!-- Middle Layer (Indigo) -->
+    <path d="M256 240 L410 163 L256 86 L102 163 Z" fill="url(#indigoGlow)" />
+  </g>
+
+  <!-- Main Isometric Stack -->
+  <g filter="url(#shadow)">
+    <!-- LAYER 3: Drawers (Bottom) -->
+    <g transform="translate(0, 110)">
+      <!-- Top Face -->
+      <path d="M256 220 L400 148 L256 76 L112 148 Z" fill="url(#cyanGlow)" />
+      <!-- Left Side -->
+      <path d="M112 148 L112 168 L256 240 L256 220 Z" fill="#0891b2" opacity="0.8" />
+      <!-- Right Side -->
+      <path d="M256 220 L256 240 L400 168 L400 148 Z" fill="#0e7490" opacity="0.9" />
+    </g>
+
+    <!-- LAYER 2: Rooms (Middle) -->
+    <g transform="translate(0, 45)">
+      <!-- Top Face -->
+      <path d="M256 220 L400 148 L256 76 L112 148 Z" fill="url(#indigoGlow)" />
+      <!-- Left Side -->
+      <path d="M112 148 L112 168 L256 240 L256 220 Z" fill="#4f46e5" opacity="0.8" />
+      <!-- Right Side -->
+      <path d="M256 220 L256 240 L400 168 L400 148 Z" fill="#4338ca" opacity="0.9" />
+    </g>
+
+    <!-- LAYER 1: Wings (Top) -->
+    <g transform="translate(0, -20)">
+      <!-- Top Face -->
+      <path d="M256 220 L400 148 L256 76 L112 148 Z" fill="url(#purpleGlow)" />
+      <!-- Left Side -->
+      <path d="M112 148 L112 168 L256 240 L256 220 Z" fill="#7c3aed" opacity="0.8" />
+      <!-- Right Side -->
+      <path d="M256 220 L256 240 L400 168 L400 148 Z" fill="#6d28d9" opacity="0.9" />
+    </g>
+  </g>
+</svg>

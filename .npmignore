@@ -1,0 +1,31 @@
+# Source code & assets
+src/
+public/
+scripts/
+tests/
+
+# Config files
+.github/
+.vscode/
+.idea/
+.editorconfig
+tsconfig.json
+next.config.js
+next-env.d.ts
+tsup.config.ts
+vitest.config.ts
+
+# Build & Cache
+.next/
+out/
+node_modules/
+coverage/
+
+# Logs & Environment
+*.log
+.env*
+
+# Documentation
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+SECURITY.md

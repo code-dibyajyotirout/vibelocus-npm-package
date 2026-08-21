@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationMap": false,
+    "sourceMap": true,
+    "outDir": "./dist/esm",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/index.ts",
+    "src/hooks/**/*",
+    "src/components/**/*",
+    "src/utils/**/*"
+  ],
+  "exclude": [
+    "src/app/**/*",
+    "node_modules",
+    "dist",
+    "out",
+    "tests"
+  ]
+}
