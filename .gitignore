@@ -22,7 +22,8 @@ coverage/
 *.tsbuildinfo
 .eslintcache
 
-# Environment Variables
+# Environment Variables & Auth Tokens
+.npmrc
 .env
 .env*.local
 .env.development.local
