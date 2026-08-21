@@ -12,7 +12,7 @@ Client-side spatial learning, AI tutor, memory palace indexing, and semantic vec
 
 VibeLocus is an educational content creation and spatial learning architecture running **100% client-side** in the browser. It parses raw documents (PDF, DOCX, TXT, MD) and topic prompts into structured hierarchical syllabi, anchors subtopics with real-time AI tutoring, and indexes knowledge representations into an in-browser **Memory Palace** database.
 
-Available as both a **reusable NPM library** (React hooks, UI components, vector retrieval, and storage utilities) and a **standalone Next.js web application** configured for static hosting (SSG).
+Available as both a **reusable NPM library** (hooks, UI components, vector retrieval, and storage utilities) and a **standalone Next.js web application** configured for static hosting (SSG).
 
 ---
 
