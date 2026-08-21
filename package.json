@@ -4,13 +4,13 @@
   "description": "Client-side spatial learning, AI tutor, memory palace indexing, and semantic vector retrieval framework.",
   "license": "AGPL-3.0-only",
   "author": "VibeLocus Contributors",
-  "homepage": "https://github.com/vibelocus/vibelocus#readme",
+  "homepage": "https://github.com/code-dibyajyotirout/vibelocus-npm-package#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vibelocus/vibelocus.git"
+    "url": "https://github.com/code-dibyajyotirout/vibelocus-npm-package.git"
   },
   "bugs": {
-    "url": "https://github.com/vibelocus/vibelocus/issues"
+    "url": "https://github.com/code-dibyajyotirout/vibelocus-npm-package/issues"
   },
   "keywords": [
     "ai-tutor",

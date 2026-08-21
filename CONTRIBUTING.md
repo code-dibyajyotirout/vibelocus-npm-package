@@ -16,7 +16,7 @@ All contributors are expected to adhere to the [Code of Conduct](CODE_OF_CONDUCT
 ### Setup
 1. Fork and clone the repository:
    ```bash
-   git clone https://github.com/vibelocus/vibelocus.git
+   git clone https://github.com/code-dibyajyotirout/vibelocus-npm-package.git
    cd vibelocus
    ```
 2. Install dependencies:
