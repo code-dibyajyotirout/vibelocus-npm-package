@@ -4,7 +4,6 @@ Client-side spatial learning, AI tutor, memory palace indexing, and semantic vec
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 [![npm version](https://img.shields.io/npm/v/vibelocus.svg)](https://www.npmjs.com/package/vibelocus)
-[![CI](https://github.com/code-dibyajyotirout/vibelocus-npm-package/actions/workflows/ci.yml/badge.svg)](https://github.com/code-dibyajyotirout/vibelocus-npm-package/actions/workflows/ci.yml)
 
 ---
 
